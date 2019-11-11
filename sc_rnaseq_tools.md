@@ -2,10 +2,17 @@
 
 ## Validated
 
+### Main
+
 - [Pagoda 2](https://github.com/hms-dbmi/pagoda2/): R package for general processing
 - [Conos](https://github.com/hms-dbmi/conos/): R package for joint analysis of multiple datasets
 - [Scanpy](https://github.com/theislab/scanpy/): python package for general processing
 - [PAGA](https://github.com/theislab/paga) (available within Scanpy): the best tool for trajectory analysis
+
+### Could be useful
+
+- [MetaCell](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1812-2): performs cell grouping to infer meta-cells: groups of cells, which are exactly in the same state, so can be averaged. Allow to reduce number of cells drastically. (@vpetukhov)
+  - one of the hardest tools to use I've met
 
 ## Didn't pass validation
 
