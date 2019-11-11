@@ -12,7 +12,8 @@
 ### Could be useful
 
 - [MetaCell](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1812-2): performs cell grouping to infer meta-cells: groups of cells, which are exactly in the same state, so can be averaged. Allow to reduce number of cells drastically. (@vpetukhov)
-  - one of the hardest tools to use I've met
+  - One of the hardest tools to use I've met
+  - Also does marker selection
 
 ## Didn't pass validation
 
