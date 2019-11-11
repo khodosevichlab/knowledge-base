@@ -21,7 +21,7 @@
 
 - [CellAssign](https://github.com/irrationone/cellassign): automated annotation based on provided markers. Requires to install tensorflow on R. Didn't manage to install it on the server (@vpetukhov).
 - [Garnett](https://cole-trapnell-lab.github.io/garnett/): automated annotation based on provided markers. Tried on epilepsy data, quality was too low to use (@vpetukhov).
-- [COMET](https://www.embopress.org/doi/10.15252/msb.20199005): automated marker panel selection. Works intolerably slow on scRNA-seq data (7k cells, 20k genes). Fails on osmFISH data (2k cells, 35 genes) (@vpetukhov).
+- [COMET](https://www.embopress.org/doi/10.15252/msb.20199005): automated marker panel selection. Works intolerably slow on scRNA-seq data (7k cells, 20k genes, stopped after several hours). Fails on osmFISH data (2k cells, 35 genes) (@vpetukhov).
 
 ## Not tested
 
