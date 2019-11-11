@@ -14,6 +14,7 @@
 - [MetaCell](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1812-2): performs cell grouping to infer meta-cells: groups of cells, which are exactly in the same state, so can be averaged. Allow to reduce number of cells drastically. (@vpetukhov)
   - One of the hardest tools to use I've met
   - Also does marker selection
+- [ROGUE](https://www.biorxiv.org/content/10.1101/819581v1): measure clustering quality for scRNA-seq. Also able to rank genes by importance (alternative to Highly-Variable Genes). Didn't see why it's better then Silhouette on my example, but in theory it should be. (@vpetukhov)
 
 ## Didn't pass validation
 
