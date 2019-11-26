@@ -5,6 +5,7 @@ All lab work-related knowledge we gather (not code)
 
 - [Reproducible Research](reproducible_research.md)
 - [SC RNA-seq Tools](sc_rnaseq_tools.md)
+- [Key papers](key_papers.md)
 
 ## Collections
 
