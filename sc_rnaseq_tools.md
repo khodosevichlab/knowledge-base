@@ -26,3 +26,9 @@
 ## Not tested
 
 - [SingleR](https://bioconductor.org/packages/devel/bioc/html/SingleR.html): Performs unbiased cell type recognition from single-cell RNA sequencing data, by leveraging reference transcriptomic datasets of pure cell types to infer the cell of origin of each single cell independently.
+- [SHARP](https://github.com/shibiaowan/SHARP): clustering, dimension reduction, fast single-cell data visualization, marker gene identification, etc via ensemble Random Projection
+- [Zinb-WAVE](https://www.nature.com/articles/s41467-017-02554-5): model-based dimensionality reduction
+- [GLM-PCA](https://www.biorxiv.org/content/10.1101/574574v1): Faster model-based PCA and Gene selection, alternative to HVG
+- [CountClust](https://github.com/kkdey/CountClust): probabilistic cluster assignment using topic modeling
+- [ILDR (isometric) normalization](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6084572/pdf/bty175.pdf)
+- [De novo gene signature identification from single‐cell RNA‐seq with hierarchical Poisson factorization](https://www.embopress.org/doi/full/10.15252/msb.20188557)
