@@ -23,6 +23,15 @@ package.
 - Try to organize your code and data hierarchically: use subfolders for both notebooks and data files
 - Though clean code is nice, don't be ashamed to store dirty code in your private repository: it's much better than not to store at all
 
+### Code style
+
+In our packages I suggest the following code style (*it's fine to have different in your analysis, as far as it's consistent for the whole project*):
+1. All functions are [lowerCamelCase](https://en.wikipedia.org/wiki/Camel_case). See [here](https://style.tidyverse.org/syntax.html#object-names) why naming functions with dots is a bed idea (tldr: R uses dots for S3 functions)
+2. All variables are lower case with dot as a separator (e.g. "n.pcs" or "count.matrix")
+3. All files are named in a [snake case](https://en.wikipedia.org/wiki/Snake_case) with capital R as the extension (e.g. utility_functions.R)
+4. Spaces around matrix operations, but not around function parameters (e.g. "x + 2 / 3" or "f(x=1, y=(2 / 3))")
+5. Parentheses are required everywhere except one-line "return" or "stop" statements or short messages (i.e. "message" or "cat")
+
 ## Resources
 
 - [Reproducible Research with R and RStudio](https://englianhu.files.wordpress.com/2016/01/reproducible-research-with-r-and-studio-2nd-edition.pdf):
