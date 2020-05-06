@@ -32,6 +32,8 @@ In our packages I suggest the following code style (*it's fine to have different
 4. Spaces around matrix operations, but not around function parameters (e.g. "x + 2 / 3" or "f(x=1, y=(2 / 3))")
 5. Parentheses are required everywhere except one-line "return" or "stop" statements or short messages (i.e. "message" or "cat")
 
+Indeed, there are many style guides for R. One of the most popular is the [Hadley Wickham's](http://adv-r.had.co.nz/Style.html). But these guides are constantly changed, so there is no "best" option.
+
 ## Resources
 
 - [Reproducible Research with R and RStudio](https://englianhu.files.wordpress.com/2016/01/reproducible-research-with-r-and-studio-2nd-edition.pdf):
