@@ -15,11 +15,11 @@ package.
 ### Package structure
 
 - All functions are stored in .R files inside "R/" folder maybe with **rare** exception of single-use functions
-- All analysis is performed in .Rmd files in either "vignette" or "analysis" forders, groupped by subfolders with meaningful names
-- If you re-use (e.g. copy-paste) the same code more then twice, move it to a function
-- If your chunk takes longer then 10 lines, create a function with a proper name to understand what's going on (except chunks with data loading)
+- All analysis is performed in .Rmd files in either "vignette" or "analysis" folders, grouped by subfolders with meaningful names
+- If you re-use (e.g. copy-paste) the same code more than twice, move it to a function
+- If your chunk takes longer than 10 lines, create a function with a proper name to understand what's going on (except chunks with data loading)
 - After you get important result, commit all changes in "R/" and in your current .Rmd notebook **right away**.
-- Avoid writing functions longer then 50 lines and with nesting level > 3. If it's the case, consider extracting sub-functions.
+- Avoid writing functions longer than 50 lines and with nesting level > 3. If it's the case, consider extracting sub-functions.
 - Try to organize your code and data hierarchically: use subfolders for both notebooks and data files
 - Though clean code is nice, don't be ashamed to store dirty code in your private repository: it's much better than not to store at all
 

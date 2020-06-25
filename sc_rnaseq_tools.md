@@ -8,14 +8,14 @@
 - [Conos](https://github.com/hms-dbmi/conos/): R package for joint analysis of multiple datasets
 - [Scanpy](https://github.com/theislab/scanpy/): python package for general processing
 - [PAGA](https://github.com/theislab/paga) (available within Scanpy): the best tool for trajectory analysis
-- [scfind](https://scfind.sanger.ac.uk/): tool from Hemberg lab, which allow to look for markers in the published atlases. Simplifies annotation greatly.
+- [scfind](https://scfind.sanger.ac.uk/): tool from Hemberg lab, which allows to look for markers in the published atlases. Simplifies annotation greatly.
 
 ### Could be useful
 
-- [MetaCell](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1812-2): performs cell grouping to infer meta-cells: groups of cells, which are exactly in the same state, so can be averaged. Allow to reduce number of cells drastically. (@vpetukhov)
+- [MetaCell](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1812-2): performs cell grouping to infer meta-cells: groups of cells, which are exactly in the same state, so can be averaged. Allows to reduce the number of cells drastically. (@vpetukhov)
   - One of the hardest tools to use I've met
   - Also does marker selection
-- [ROGUE](https://www.biorxiv.org/content/10.1101/819581v1): measure clustering quality for scRNA-seq. Also able to rank genes by importance (alternative to Highly-Variable Genes). Didn't see why it's better then Silhouette on my example, but in theory it should be. (@vpetukhov)
+- [ROGUE](https://www.biorxiv.org/content/10.1101/819581v1): measure clustering quality for scRNA-seq. Also able to rank genes by importance (alternative to Highly-Variable Genes). Didn't see why it's better than Silhouette on my example, but in theory it should be. (@vpetukhov)
 
 ## Didn't pass validation
 
