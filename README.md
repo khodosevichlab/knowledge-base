@@ -1,7 +1,7 @@
 # Knowledge Base
 All lab work-related knowledge we gather (not code)
 
-## Table of Content
+## Table of Contents
 
 - [Reproducible Research](reproducible_research.md)
 - [SC RNA-seq Tools](sc_rnaseq_tools.md)
