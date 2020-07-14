@@ -34,3 +34,5 @@
 - [CountClust](https://github.com/kkdey/CountClust): probabilistic cluster assignment using topic modeling
 - [ILDR (isometric) normalization](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6084572/pdf/bty175.pdf)
 - [De novo gene signature identification from single‐cell RNA‐seq with hierarchical Poisson factorization](https://www.embopress.org/doi/full/10.15252/msb.20188557)
+- [scPopCorn](https://github.com/ncbi/scPopCorn): Python-based package to do comparison across multiple scRNA-seq data sets. Uses Google's page rank algorithm.
+- [cellO](https://github.com/deweylab/CellO): Python-based package for cell ontology-based classification. Uses the Cell Ontology db.
