@@ -17,6 +17,7 @@
   - Also does marker selection
 - [ROGUE](https://www.biorxiv.org/content/10.1101/819581v1): measure clustering quality for scRNA-seq. Also able to rank genes by importance (alternative to Highly-Variable Genes). Didn't see why it's better than Silhouette on my example, but in theory it should be. (@vpetukhov)
 - [scHLAcount](https://github.com/10XGenomics/scHLAcount): Infers HLA alleles from scRNA data. A bit difficult to install (limited guide), but easy to run. Ran on 32 samples, only 1 failed. Interesting if you expect an immune component in your disease of interest, an ongoing discussion for brain disorders. Only problem is power (number of samples).
+- [CELLECT](https://github.com/perslab/CELLECT): CELL-type Expression-specific integration for Complex Traits, i.e., overlay GWAS with scRNA-seq data.
 
 ## Didn't pass validation
 
@@ -36,3 +37,5 @@
 - [De novo gene signature identification from single‐cell RNA‐seq with hierarchical Poisson factorization](https://www.embopress.org/doi/full/10.15252/msb.20188557)
 - [scPopCorn](https://github.com/ncbi/scPopCorn): Python-based package to do comparison across multiple scRNA-seq data sets. Uses Google's page rank algorithm.
 - [cellO](https://github.com/deweylab/CellO): Python-based package for cell ontology-based classification. Uses the Cell Ontology db.
+- [CSI-Microbes](https://www.biorxiv.org/content/10.1101/2020.05.14.096230v1.full): Not published yet. Identifies possible cell-type specific intracellular microbes.
+- [scHOT](https://github.com/shazanfar/scHOT): Higher order testing for spatial RNA-seq, or trajectory-based scRNA-seq.
