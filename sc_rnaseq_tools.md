@@ -16,6 +16,7 @@
   - One of the hardest tools to use I've met
   - Also does marker selection
 - [ROGUE](https://www.biorxiv.org/content/10.1101/819581v1): measure clustering quality for scRNA-seq. Also able to rank genes by importance (alternative to Highly-Variable Genes). Didn't see why it's better than Silhouette on my example, but in theory it should be. (@vpetukhov)
+- [scHLAcount](https://github.com/10XGenomics/scHLAcount): Infers HLA alleles from scRNA data. A bit difficult to install (limited guide), but easy to run. Ran on 32 samples, only 1 failed. Interesting if you expect an immune component in your disease of interest, an ongoing discussion for brain disorders. Only problem is power (number of samples).
 
 ## Didn't pass validation
 
