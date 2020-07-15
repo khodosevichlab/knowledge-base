@@ -16,8 +16,9 @@
   - One of the hardest tools to use I've met
   - Also does marker selection
 - [ROGUE](https://www.biorxiv.org/content/10.1101/819581v1): measure clustering quality for scRNA-seq. Also able to rank genes by importance (alternative to Highly-Variable Genes). Didn't see why it's better than Silhouette on my example, but in theory it should be. (@vpetukhov)
-- [scHLAcount](https://github.com/10XGenomics/scHLAcount): Infers HLA alleles from scRNA data. A bit difficult to install (limited guide), but easy to run. Ran on 32 samples, only 1 failed. Interesting if you expect an immune component in your disease of interest, an ongoing discussion for brain disorders. Only problem is power (number of samples).
-- [CELLECT](https://github.com/perslab/CELLECT): CELL-type Expression-specific integration for Complex Traits, i.e., overlay GWAS with scRNA-seq data.
+- [scHLAcount](https://github.com/10XGenomics/scHLAcount): Infers HLA alleles from scRNA data. A bit difficult to install (limited guide), but easy to run. Ran on 32 samples, only 1 failed. Interesting if you expect an immune component in your disease of interest, an ongoing discussion for brain disorders. Only problem is power (number of samples). (@rrydbirk)
+- [CELLECT](https://github.com/perslab/CELLECT): CELL-type Expression-specific integration for Complex Traits, i.e., overlay GWAS with scRNA-seq data. (@rrydbirk)
+- [DoRothEA](https://github.com/saezlab/dorothea): Gene set resource containing signed transcription factor - target interactions. Easy to install and run, however, one should use Seurat and con$getJointCountMatrix(raw=T) as input (see vignette). (@rrydbirk)
 
 ## Didn't pass validation
 
@@ -25,6 +26,7 @@
 - [Garnett](https://cole-trapnell-lab.github.io/garnett/): automated annotation based on provided markers. Tried on epilepsy data, quality was too low to use (@vpetukhov).
 - [COMET](https://www.embopress.org/doi/10.15252/msb.20199005): automated marker panel selection. Works intolerably slow on scRNA-seq data (7k cells, 20k genes, stopped after several hours). Fails on osmFISH data (2k cells, 35 genes) (@vpetukhov).
 - [tSpace](https://github.com/hylasD/tSpace): unsupervised trajectories. Takes forever to run, didn't perform well on my data. Tutorial is more or less useless unless you have "perfect example data", I wasn't able to cluster data in order to pick trajectories, so dropped it (@rrydbirk).
+- [enrichCellMarkers](https://github.com/iaconogi/enrichCM): Uses database of single cell markers created by Xinxin Zhang et al. (https://academic.oup.com/nar/article/47/D1/D721/5115823). Only useful at superficial levels like "neurons" versus "oligodendrocytes" or "exc" versus "inh" neurons. Limited by the database annotations. (@rrydbirk)
 
 ## Not tested
 
