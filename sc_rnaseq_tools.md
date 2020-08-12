@@ -41,3 +41,5 @@
 - [cellO](https://github.com/deweylab/CellO): Python-based package for cell ontology-based classification. Uses the Cell Ontology db.
 - [CSI-Microbes](https://www.biorxiv.org/content/10.1101/2020.05.14.096230v1.full): Not published yet. Identifies possible cell-type specific intracellular microbes.
 - [scHOT](https://github.com/shazanfar/scHOT): Higher order testing for spatial RNA-seq, or trajectory-based scRNA-seq.
+- [scVelo](https://github.com/theislab/scvelo): RNA velocity generalized through dynamical modeling. Also possibly available as R implementation [here](https://github.com/dynverse/scvelo).
+- [solo](https://github.com/calico/solo): Doublet detection via semi-supervised deep learning.
