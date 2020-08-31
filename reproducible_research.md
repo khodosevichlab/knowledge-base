@@ -10,7 +10,7 @@ good description).
 The very least one can do to preserve proper folder structure to store your data and results. Article 
 ["Stop the working directory insanity"](https://gist.github.com/jennybc/362f52446fe1ebc4c49f) has a detailed explanation of the
 problem. To solve this problem without any overhead I propose [dataorganizer](https://github.com/khodosevichlab/dataorganizer)
-package.
+package. [Here](https://devtools.r-lib.org/) is a brief guide on how to develop packages in RStudio.
 
 ### Package structure
 
@@ -41,3 +41,4 @@ Indeed, there are many style guides for R. One of the most popular is the [Hadle
 - [Research Compendium](https://research-compendium.science/): collection of information on reproducible research
 - [R Packages](http://r-pkgs.had.co.nz/) online book from Hadley Wickham
 - [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/). All you need to know about R Markdown.
+- [devtools](https://devtools.r-lib.org/): developing packages in RStudio
