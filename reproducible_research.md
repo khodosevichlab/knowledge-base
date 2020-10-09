@@ -22,6 +22,7 @@ package. [Here](https://devtools.r-lib.org/) is a brief guide on how to develop 
 - Avoid writing functions longer than 50 lines and with nesting level > 3. If it's the case, consider extracting sub-functions.
 - Try to organize your code and data hierarchically: use subfolders for both notebooks and data files
 - Though clean code is nice, don't be ashamed to store dirty code in your private repository: it's much better than not to store at all
+- Please document your functions for an R package, both for yourself in the future and for sharing work with others. This is done via [roxygen2](https://github.com/r-lib/roxygen2). Trust me, you'll thank yourself later.
 
 ### Code style
 
@@ -42,3 +43,4 @@ Indeed, there are many style guides for R. One of the most popular is the [Hadle
 - [R Packages](http://r-pkgs.had.co.nz/) online book from Hadley Wickham
 - [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/). All you need to know about R Markdown.
 - [devtools](https://devtools.r-lib.org/): developing packages in RStudio
+- [roxygen2](https://github.com/r-lib/roxygen2): documenting functions for other users in R packages. 
